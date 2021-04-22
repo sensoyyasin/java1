@@ -4,9 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//camelCase
-		//Don't repeat yourself
-		String internetSubeButonu ="Ýnternet Þubesi";
+		
+		String internetSubeButonu ="Ä°nternet Åžubesi";
 		double dolarDun = 8.15;
 		double dolarBugun = 8.18;
 		int vade = 36;
@@ -19,19 +18,19 @@ public class Main {
 		
 		if(dolarBugun<dolarDun) {
 			
-			System.out.println("Dolar düþtü icon");
+			System.out.println("Dolar dÃ¼ÅŸtÃ¼ icon");
 		}
 		else if(dolarDun == dolarBugun){
 			
-			System.out.println("Dolar eþitlendi icon");
+			System.out.println("Dolar eÅŸitlendi icon");
 		}
 		else{
-			System.out.println("Dolar yükseldi icon");
+			System.out.println("Dolar yÃ¼kseldi icon");
 			
 		}
 		
-		String kredi1 = "Hýzlý Kredi";
-		String kredi2 = "Çiftçi Kredisi";
+		String kredi1 = "HÄ±zlÄ± Kredi";
+		String kredi2 = "Ã‡iftÃ§i Kredisi";
 		String kredi3 = "Mutlu Kredisi";
 		String kredi4 = "Konut Kredisi";
 		String kredi5 = "Msb kredisi";
@@ -44,7 +43,7 @@ public class Main {
 		System.out.println(kredi5);
 		System.out.println(kredi6);
 		
-		String[] krediler = {"Hýzlý Kredi","Çiftçi Kredisi","Mutlu Kredisi"};
+		String[] krediler = {"HÄ±zlÄ± Kredi","Ã‡iftÃ§i Kredisi","Mutlu Kredisi"};
 		
 		//foreach
 		for(String kredi :krediler) {
